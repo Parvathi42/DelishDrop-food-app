@@ -1,0 +1,34 @@
+.specifications{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.specifications .child{
+    display: flex;
+    align-items: center;
+}
+.specifications .child div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 20px;
+    line-height: 0;
+    width: 300px;
+}
+.specifications .child div p{
+    color: #808080;
+}
+.specifications img{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.specifications #card{
+    padding:15px;
+}
+hr{
+    margin-top: 20px;
+}
