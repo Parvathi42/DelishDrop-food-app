@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Food Delivery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive food delivery app built with React. This app allows users to search for food items, browse food categories, view cart, sign in, and manage their address. It provides a clean and user-friendly interface for a seamless food delivery experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Page**: Displays a header, food categories, and a search bar to browse food options.
+- **Search Page**: Users can search for food items, with results displayed dynamically.
+- **Cart**: Allows users to add items to their cart and view the total order.
+- **Sign In**: Users can log into their accounts to access their personalized details.
+- **Address Page**: Users can manage and update their delivery address.
 
-### `npm start`
+## Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
+<img src="./appimages/Homeheader.png" width="300" height="auto" /> <img src="./appimages/menu.png" width="300" height="auto" /> <img src="./appimages/footer.png" width="300" height="auto" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+The Home Page consists of:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Header**: Contains the logo and navigation menu.
+- **Menu**: Displays food categories like Pizza, Burgers, etc., allowing users to click on a category to view items.
+- **Footer**: Shows contact information and social media links.
 
-### `npm run build`
+### Search Page
+<img src="./appimages/search.png" width="300" height="auto" /> <img src="./appimages/itemdisplay.png" width="300" height="auto" /> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Search Bar**: A centered search bar where users can type food names. The search bar displays auto-suggestions as the user types.
+- **Items Display**: Displays a grid or list of food items based on the search or category selected.
+- **Add to Cart**: Each food item has an "Add to Cart" button to allow users to add it to their cart.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="./appimages/cart.png" width="600" height="auto" />
 
-### `npm run eject`
+- **Cart Overview**: Shows a list of items added to the cart with their quantity and price.
+- **Total Amount**: Displays the total amount of the order.
+- **Checkout Button**: A button that directs the user to the checkout page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Sign In
+<img src="./appimages/sigin.png" width="600" height="auto" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Login Form**: Users can enter their email and password to sign in to their account.
+- **Sign Up Link**: A link to a sign-up page for new users.
+- **Forgot Password**: A link to reset the password if the user forgets it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Address Page
+<img src="./appimages/address.png" width="600" height="auto" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Address Form**: Users can add, update, or delete their delivery address.
+- **Save Button**: Saves the entered address.
+- **Address Display**: Shows the current address saved for the user.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**
+- **React Router (for navigation)**
+- **CSS (for styling)**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
